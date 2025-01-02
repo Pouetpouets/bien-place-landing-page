@@ -1,12 +1,12 @@
 export default function HowToInstall({ id }: { id: string }) {
     const steps = [
       {
-        title: 'Click "Add to Chrome"',
+        title: 'Click "Ajouter à chrome"',
         description: 'Click the blue button above to go to the Chrome Web Store.',
       },
       {
         title: 'Install the Extension',
-        description: 'Click "Add to Chrome" in the Chrome Web Store.',
+        description: 'Click "Ajouter à chrome" in the Chrome Web Store.',
       },
       {
         title: 'Start Using',

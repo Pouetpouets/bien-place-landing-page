@@ -23,6 +23,9 @@ export default function Navbar() {
             <Link href="#how-to-install" className="text-gray-600 hover:text-gray-900">
               Installation
             </Link>
+            <Link href="#pricing" className="text-gray-600 hover:text-gray-900">
+              Pricing
+            </Link>
             <Link href="#faq" className="text-gray-600 hover:text-gray-900">
               FAQ
             </Link>
@@ -30,7 +33,7 @@ export default function Navbar() {
               href="https://chrome.google.com/webstore"
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
             >
-              Add to Chrome
+              Ajouter à chrome
             </a>
           </div>
 
@@ -88,7 +91,7 @@ export default function Navbar() {
             href="https://chrome.google.com/webstore"
             className="block px-3 py-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
           >
-            Add to Chrome
+            Ajouter à chrome
           </a>
         </div>
       </div>
