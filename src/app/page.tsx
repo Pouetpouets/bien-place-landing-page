@@ -8,10 +8,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
-      <HowToInstall />
- {/*      <Testimonials /> */}
-      <FAQ />
+      <Features id="features"/>
+      <HowToInstall id="how-to-install" />
+      <FAQ  id="faq"/>
       <Footer />
     </>
   )
