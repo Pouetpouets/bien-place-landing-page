@@ -62,7 +62,11 @@ export default function Pricing({ id }: PricingProps) {
           </div>
 
           {/* Pro Plan */}
-          <div className="rounded-3xl p-8 ring-1 ring-blue-600 bg-white hover:shadow-lg transition-all duration-200">
+          <div className="relative rounded-3xl p-8 ring-1 ring-blue-600 bg-white hover:shadow-lg transition-all duration-200">
+          <div className="absolute -top-4 -right-4 bg-red-500 text-white px-4 py-1 rounded-full transform rotate-12 shadow-lg">
+              <span className="font-bold">Offre de lancement!</span>
+            </div>
+
             <h3 className="text-lg font-semibold leading-8 text-gray-900">
               Pro
               <span className="ml-2 inline-flex items-center rounded-md bg-blue-100 px-2 py-1 text-xs font-medium text-blue-700">
@@ -73,7 +77,7 @@ export default function Pricing({ id }: PricingProps) {
              Pour les investisseurs immobiliers et professionnels
             </p>
             <div className="mt-6 flex items-baseline gap-x-1">
-              <span className="text-4xl font-bold tracking-tight text-gray-900">19.99€</span>
+                            <span className="text-4xl font-bold tracking-tight text-gray-900">19.99€</span>
             </div>
             <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
               <li className="flex gap-x-3">
