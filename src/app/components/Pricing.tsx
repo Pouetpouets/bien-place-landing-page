@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // src/components/Pricing.tsx
 import { Check, X } from 'lucide-react';
 
