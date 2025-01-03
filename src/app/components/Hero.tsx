@@ -3,7 +3,6 @@
 
 export default function Hero() {
   return (
-
     <div className="relative isolate px-4 pt-6 md:px-6 md:pt-10 lg:px-8">
     <div className="mx-auto max-w-2xl py-16 md:py-24 lg:py-32">
       <div className="text-center">

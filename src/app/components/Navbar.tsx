@@ -28,10 +28,9 @@ export default function Navbar() {
               </span>
             </Link>
           </div>
-          
           <div className="hidden md:flex items-center space-x-8">
             <Link href="#features" className="text-gray-600 hover:text-gray-900">
-              Features
+              Fonctionnalités
             </Link>
             <Link href="#how-to-install" className="text-gray-600 hover:text-gray-900">
               Installation
@@ -112,7 +111,7 @@ export default function Navbar() {
             onClick={closeMenu}
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50"
           >
-            Features
+            Fonctionnalités
           </Link>
           <Link
             href="#how-to-install"
@@ -126,7 +125,7 @@ export default function Navbar() {
             onClick={closeMenu}
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50"
           >
-            Pricing
+            Prix
           </Link>
           <Link
             href="#team"
