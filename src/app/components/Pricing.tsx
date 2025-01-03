@@ -65,7 +65,7 @@ export default function Pricing({ id }: PricingProps) {
           {/* Pro Plan */}
           <div className="relative rounded-3xl p-8 ring-1 ring-blue-600 bg-white hover:shadow-lg transition-all duration-200">
           <div className="absolute -top-4 -right-4 bg-red-500 text-white px-4 py-1 rounded-full transform rotate-12 shadow-lg">
-              <span className="font-bold">Offre de lancement!</span>
+              <span className="font-bold">Offre de lancement</span>
             </div>
 
             <h3 className="text-lg font-semibold leading-8 text-gray-900">

@@ -2,7 +2,7 @@ export default function FAQ({ id }: { id: string }) {
     const faqs = [
       {
         question: 'Que fait cette extension?',
-        answer: 'Ajoute des informations supplémentaires sur les biens immobiliers.',
+        answer: 'Ajoute des informations supplémentaires sur les biens immobiliers lors de votre recherche.',
       },
       {
         question: 'Comment obtenir de l’aide?',
