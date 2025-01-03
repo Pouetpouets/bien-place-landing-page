@@ -1,16 +1,20 @@
+
 export default function Features({ id }: { id: string }) {
     const features = [
       {
-        name: 'Feature 1',
-        description: 'Description of your first main feature.',
+        icon: '🏠',
+        name: 'Localisation', 
+        description: 'Locasliation de votre bien, depuis Google Maps.',
       },
       {
-        name: 'Feature 2',
-        description: 'Description of your second main feature.',
+        icon: '⚡️',
+        name: "Estimation des consommations d'énergie ",
+        description: 'Estimation plus précise, avec des éléments de comparaison.',
       },
       {
-        name: 'Feature 3',
-        description: 'Description of your third main feature.',
+        icon: '💰',
+        name: 'Analyse des données',
+        description: 'Comparaison des données avec des biens similaires.',
       },
     ]
   
@@ -26,12 +30,16 @@ export default function Features({ id }: { id: string }) {
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
               {features.map((feature) => (
-                <div key={feature.name} className="flex flex-col">
+
+                <div key={feature.name} className="flex flex-col items-center justify-center">
+                  <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 text-3xl font-bold text-blue-600 bg-blue-100 rounded-full">
+                    {feature.icon}
+                  </div>
                   <dt className="text-base font-semibold leading-7 text-gray-900">
                     {feature.name}
                   </dt>
-                  <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                    <p className="flex-auto">{feature.description}</p>
+                  <dd className="mt-1 flex flex-auto flex-col items-center justify-center text-base leading-7 text-gray-600">
+                    <p className="flex-auto text-center">{feature.description}</p>
                   </dd>
                 </div>
               ))}
