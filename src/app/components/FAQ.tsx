@@ -1,16 +1,12 @@
 export default function FAQ({ id }: { id: string }) {
     const faqs = [
       {
-        question: 'What does this extension do?',
-        answer: 'Detailed explanation of your extension\'s main functionality.',
+        question: 'Que fait cette extension?',
+        answer: 'Ajoute des informations supplémentaires sur les biens immobiliers.',
       },
       {
-        question: 'Is it free?',
-        answer: 'Information about pricing, if any.',
-      },
-      {
-        question: 'How do I get support?',
-        answer: 'Instructions for getting help or support.',
+        question: 'Comment obtenir de l’aide?',
+        answer: 'support@bienplace.com',
       },
     ]
   
@@ -20,7 +16,7 @@ export default function FAQ({ id }: { id: string }) {
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">FAQ</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Frequently Asked Questions
+              Questions frequemmment posées
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl">

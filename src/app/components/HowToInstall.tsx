@@ -1,16 +1,20 @@
 export default function HowToInstall({ id }: { id: string }) {
     const steps = [
       {
-        title: 'Click "Ajouter à chrome"',
-        description: 'Click the blue button above to go to the Chrome Web Store.',
+        title: 'Cliquez "Ajouter à chrome"',
+        description: 'Cliquez sur le bouton bleu ci-dessus pour accéder au Chrome Web Store.',
+
+
       },
       {
-        title: 'Install the Extension',
-        description: 'Click "Ajouter à chrome" in the Chrome Web Store.',
+        title: 'Installer l’extension',
+        description: 'Cliquez "Ajouter à chrome" dans le Chrome Web Store.'
+
       },
       {
-        title: 'Start Using',
-        description: 'The extension icon will appear in your browser. Click it to start!',
+        title: 'Commencez à utiliser',
+        description: 'L’icône de l’extension apparaîtra dans votre navigateur. Cliquez dessus pour commencer !'
+
       },
     ]
   
@@ -20,7 +24,7 @@ export default function HowToInstall({ id }: { id: string }) {
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">Installation</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              How to Install
+              Comment installer l'extension
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
