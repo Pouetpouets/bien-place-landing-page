@@ -3,10 +3,11 @@
 
 export default function Hero() {
   return (
-    <div className="relative isolate px-6 pt-10 lg:px-8">
-      <div className="mx-auto max-w-2xl py-30 sm:py-48 lg:py-56">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+
+    <div className="relative isolate px-4 pt-6 md:px-6 md:pt-10 lg:px-8">
+    <div className="mx-auto max-w-2xl py-16 md:py-24 lg:py-32">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl">
            Trouvez en <span className="bg-yellow-400"> un instant </span> la localisation du bien repéré 
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
