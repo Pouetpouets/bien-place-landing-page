@@ -10,7 +10,7 @@ export default function Hero() {
            Trouvez en <span className="bg-yellow-400"> un instant </span> la localisation du bien repéré 
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Une extension Chrome pour ocaliser vos recherches immobiliéres, connaitre la consomation énergétique et estimer le prix de votre bien.
+            Une extension Chrome pour localiser vos recherches immobiliéres.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

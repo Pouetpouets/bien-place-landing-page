@@ -9,7 +9,7 @@ export default function Features({ id }: { id: string }) {
         name: 'Adresse exacte', 
         description: 'Locasliation de votre bien, depuis Google Maps.',
       },
-      {
+    /*   {
         icon: <Sparkle />,
         name: "Consommation d'énergie",
         description: 'Estimation plus précise, avec des éléments de comparaison.',
@@ -18,7 +18,7 @@ export default function Features({ id }: { id: string }) {
         icon: <AlignEndHorizontal />,
         name: 'Estimation de prix',
         description: 'Analyse des données avec des biens similaires.',
-      },
+      }, */
     ]
   
     return (
@@ -31,8 +31,8 @@ export default function Features({ id }: { id: string }) {
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-              {features.map((feature) => (
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+              {/* {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col items-center justify-center">
                   <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 text-3xl font-bold text-blue-600 bg-blue-100 rounded-full">
                     {feature.icon}
@@ -44,8 +44,13 @@ export default function Features({ id }: { id: string }) {
                     <p className="flex-auto text-center">{feature.description}</p>
                   </dd>
                 </div>
-              ))}
+              ))} */}
+            
             </dl>
+            <h1 className='text-center text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl'>
+
+TODO: VIDEO
+</h1>
           </div>
         </div>
       </div>
